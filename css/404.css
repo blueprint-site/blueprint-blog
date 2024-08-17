@@ -1,0 +1,51 @@
+.four04-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.fourr {
+    font-size: 8em;
+    transition: 0.5s ease;
+}
+.fourr:hover, .zeroo:hover {
+    transform: rotate3d(2, 2, 2, 360deg);
+    transform: scale3d(1.5, 0.1, 1.5);
+}
+.zeroo {
+    color: var(--addon-color);
+    font-size: 8em;
+    transition: 0.5s ease;
+}
+.subtitle {
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Minecraftia", Arial, Helvetica, sans-serif;
+    transition: 0.5s ease;
+}
+.back-link {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: "Minecraftia", Arial, Helvetica, sans-serif;
+    color: var(--addon-color);
+    font-weight: bold;
+    transition: 0.5s ease;
+    background-color: black;
+    width: auto;
+    padding: 0.6em;
+    border-radius: 19px;
+}
+.back-link:hover {
+    box-shadow: 0em 0em 0em 0.5em var(--addon-color);
+
+}
+.back-container {
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s ease;
+}
+.back-container:hover {
+    transform: scale(1.1);
+    
+}
