@@ -161,7 +161,7 @@ footer {
 }
 .blogpost-banner {
     /*background-color: var(--container-background);*/
-    background-image: url("./assets//background/abstract-bg.png");
+    background-image: url("../assets//background/abstract-bg.png");
     height: auto;
     background-size: cover;
     display: flex;
