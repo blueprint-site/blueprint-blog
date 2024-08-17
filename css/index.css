@@ -1,0 +1,72 @@
+:root {
+    --main-background: #E5E7EB;
+    --dark-main-background: black;
+    --text-color: white;
+    --dark-text-color: black;
+    --container-background: #B3CAE5;
+    --dark-container-background: #527caf;
+    --addon-color: #7594f0;
+}
+
+.header {
+    text-align: center;
+    padding: 2em;
+}
+.header h1 {
+    font-size: xx-larger;
+    animation: 0.5 ease;
+}
+.header h4 {
+    font-weight: normal;
+    font-size: large;
+    margin-top: -0.7em;
+}
+.home-cards {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    gap: 1em;
+    justify-items: center; 
+    align-items: center; 
+}
+.home-card {
+    width: 20em;
+    background-color: #b3cae5;
+    border-radius: 1.9em;
+    color: black;
+    box-shadow: 0 0 0.5em black;
+    transition: 0.5s ease;
+}
+.home-card-content {
+    padding: 0.5em;
+    margin-top: -0.5em;
+}
+.home-card img {
+    width: 100%;
+    border-radius: 1.9em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.home-card h2{
+    font-size: x-large;
+    margin-top: 0.4em;
+    font-weight: bolder;
+}
+.home-card h4 {
+    font-size: medium;
+    margin-top: -1em;
+    font-weight: normal;
+}
+.home-tags {
+    display: flex;
+    gap: 0.3em;
+    opacity: 0.5;
+}
+.home-card a{
+    text-decoration: none;
+    color: black;
+}
+.home-card:hover {
+    box-shadow: 0 0 1em black;
+    box-shadow: 0em 0em 0em 0.5em var(--addon-color);
+    transform:  scale(1.1) perspective(170px) rotateX(5deg);
+}
