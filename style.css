@@ -30,6 +30,10 @@ nav {
     transition: 0.25s ease-out;
     z-index: 1;
 }
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
 nav:hover {
     background-color: #dee2e6;
     box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.8);
