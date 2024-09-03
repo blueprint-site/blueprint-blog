@@ -111,12 +111,12 @@ nav:hover {
     border-radius: 0.5em;
     color: black;
 }
-.yellow-tag {    
-    background-color: green;
+.green-tag {    
+    background-color: #008000;
     width: fit-content;
     padding: 0.3em;
     border-radius: 0.5em;
-    color: black;
+    color: white;
 }
 
 footer {
