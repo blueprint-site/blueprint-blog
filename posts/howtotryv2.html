@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--- DO NOT USE THE TEMPLATE AS A TEST FOR YOUR POST -->
+    <!--- THE CSS WILL NOT WORK -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blueprint-Blog | Blogpost</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/logos/blueprint-blog.png">
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img class="logo" src="../assets/logos/blueprint-blog.png" alt="Blueprint-Blog Logo">
+            <a href="https://blueprint-site.github.io/blueprint-blog/index.html" class="blog-title">Blueprint-Blog</a>
+        </div>
+        <div class="nav-links">
+            <a href="https://blueprint-site.github.io" class="support">Back to Blueprint-Site</a>
+            <a href="/support.html" class="support">Support</a>
+        </div>
+    </nav>
+
+    
+    <div class="blogpost-margins">
+        <div class="blogpost-banner">
+            <!--- Banner here ↓-->
+            <img src="../assets/blog-covers/how-to-test-v2.png" alt="">
+        </div>
+
+        <div class="blogpost-content">
+                <!--- Title ↓-->
+                <h1 class="blogpost-title">How to test v2 before the release?</h1>
+
+                
+                <!--- Description ↓-->
+                <h4>Ever wanted to try upcoming features before the release? Then read this</h4>
+                
+                <!--- Tags ↓-->
+                <!--- blue-tag, yellow-tag, red-tag, green-tag-->
+                <div class="home-tags">
+                    <h5 class="green-tag">FAQ</h5>
+                </div>
+                
+                <!--- Authors ↓-->
+                <div class="blogpost-authors">
+                    <div class="blogpost-author">
+                        <a href="https://discordapp.com/users/1031798724483096628">
+                            <img src="../assets/avatars/egorro.jpeg" alt="" class="author-avatar">
+                            <h5>Egorro</h5>
+                        </a>
+                    </div>
+                </div>
+                
+                <p class="blogpost-quote">
+                    NOTE: If You don't know what are you doing don't do it. This is not a particularly easy process.
+                </p>
+
+                <!--- Section start ↓-->
+                <h3 class="blogpost-section">
+                    First steps
+                </h3>
+
+                <h5 class="body-text">Here are a few things you need to have before cloning the github repo:
+                    <ul>
+                        1. Git (don't have it? Learn how to install it <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">here</a>)<br>
+                        2. Have npm installed (also don't have it? <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">Learn how to install npm with nodejs</a>) <br>
+                        3. Have internet connection (obvious)
+                    </ul>
+                    <br>Go to the next step
+                </h5>
+                <p class="blogpost-quote">
+                    Tip: When typing the commands dont type "$" (dolar-sign) <br>
+                    It is here to show you that this is a command
+                </p>
+                <h3 class="blogpost-section">
+                    Cloning the repo
+                </h3>
+
+                <h5 class="body-text">
+                    First: clone the repo with the react-refactor branch (IMPORTANT), You can use this command to make it easy: <br><br>
+                    <u>$ git clone --branch react-refactor https://github.com/blueprint-site/blueprint-site.github.io Blueprint-site</u> <br><br>
+                    This will copy the react-refactor branch to the Blueprint-site folder where your terminal was opened <br>
+                    Open it (cd Blueprint-site)
+                </h5>
+                <h3 class="blogpost-section">
+                    Running the site
+                </h3>
+                <h5 class="body-text">
+                    To actually run the app you need to install the dependencies for it, simply type <br><br>
+                    <u>$ npm install</u>
+                    <br><br>
+                    This should install the dependencies for you. You should see something like this: <br> <br>
+                    <img src="../assets/post-images/howtotryv2/terminal-output.png" alt="" class="blogpost-image"> <br>
+                    To run the site you need to type: <br><br>
+                    <u>$ npm run dev</u> <br> <br>
+                    Then you can type the url in your browser and you should see the site. (or type "o" and click enter) <br>
+                    The output should look like this: <br> <br>
+                    <img src="../assets/post-images/howtotryv2/site-running.png" alt="" class="blogpost-image">
+                    <br>
+                    The URL you need to type into browser is (in this case) http://localhost:5173 or just localhost:5173
+
+                </h5>
+                
+                <h3 class="blogpost-section">
+                    And that's all!
+                </h3>
+                <h5 class="body-text">
+                    Now your copy of Blueprint v2 is up and running! if you want to keep updating it you can do it in 3 ways: <br>
+                    <ul>
+                        First method: You can manually delete and re-pull the folder with site files to update it (slow process) <br>
+                        Second method: You can type <br><br>
+                        <u>$ git pull origin react-refactor</u> <br><br>
+                        Once in so often, its faster to do that re-deleting and all that stuff. <br><br>
+                        Third method: If you have Visual Studio Code you can install Git extension and update the folder with a click of a button. You can search on the internet how to use VSC and it's git extension
+                    </ul>
+                    <br>
+                    <br>
+                    Enjoy your copy of Blueprint v2!
+                </h5>
+                <h3 class="blogpost-section">
+                    Any more questions?
+                </h3>
+
+                <h5 class="body-text">
+                    If You got more questions feel free to join our discord: <a href="https://discord.com/invite/ZF7bwgatrT">link</a> <br>
+                    Or feel free to message me directly on discord: <br>
+                    <br> <div class="blogpost-author">
+                        <a href="https://discordapp.com/users/1031798724483096628">
+                            <img src="../assets/avatars/egorro.jpeg" alt="" class="author-avatar">
+                            <h5>Egorro</h5>
+                        </a>
+                    </div>
+                </h5>
+        </div>
+
+    </div>
+    <footer>
+        <img src="../assets/logos/blueprint-blog.png" alt="" class="bottom-bar-logo">
+        <h4 class="bottom-bar-sitename">Blueprint-blog</h4>
+        <h6 class="bottom-bar-bug">Found a bug? Report it to blueprint-site@proton.me</h6>
+        <h6 class="bottom-bar-bug">NOT AN OFFICIAL MINECRAFT SERVICE. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR
+            MICROSOFT</h6>
+        <h6 class="bottom-bar-bug">Not affiliated with Create Mod team in any way</h6>
+        <h6 class="bottom-bar-bug">Made with ❤️ by @yehorscode</h6>
+    </footer>
+</body>
+</html>

@@ -1,3 +1,12 @@
+:root {
+    --main-background: #E5E7EB;
+    --dark-main-background: black;
+    --text-color: white;
+    --dark-text-color: black;
+    --container-background: #B3CAE5;
+    --dark-container-background: #527caf;
+    --addon-color: #7594f0;
+}
 .four04-container {
     display: flex;
     text-align: center;
