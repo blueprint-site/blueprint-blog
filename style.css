@@ -172,6 +172,7 @@ footer {
     border-radius: 39px;
     justify-content: left;
     box-shadow: 0em 0.6em 0.6em rgba(0, 0, 0, 0.3);
+    
 }
 .blogpost-banner img {
     width: 60%;
@@ -213,6 +214,8 @@ footer {
 .blogpost-image {
     width: 40em;
     border-radius: 19px;
+    text-align: left;
+    display: block;
 }
 .blogpost-authors {
     display: inline-block;
